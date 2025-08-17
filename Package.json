@@ -1,0 +1,21 @@
+{
+  "name": "playwright-mcp-ups",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "npx playwright test",
+    "report": "npx playwright show-report",
+    "mcp-server": "ts-node mcp-server.ts"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.54.2",
+    "@types/node": "^20.0.0",
+    "dotenv": "^16.3.1",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.3",
+    "playwright": "^1.46.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "playwright": {
+      "command": "npm",
+      "args": ["run", "mcp-server"],
+      "env": {}
+    }
+  }
+}
